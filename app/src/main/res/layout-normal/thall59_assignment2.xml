@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="thall59.assignment2.Assignment2">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView"
+        android:src="@drawable/happy_birthday"
+        android:layout_below="@+id/textView2" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/happy_birthday"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="12dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:background="#b30059"
+        android:textColor="#ffcc00"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/from_tiffany"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="25sp"
+        android:textColor="#ffcc00"
+        android:gravity="center"
+        android:background="#b30059"
+        android:alpha=".7"/>
+
+
+</RelativeLayout>
